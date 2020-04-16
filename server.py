@@ -92,7 +92,7 @@ try:
     print("Sender socket initialized")
     s.bind((host, port))
 except socket.error:
-    print("Failed to create socket")
+    print("Failed to create socket.")
     sys.exit()
 while True:
     try:
